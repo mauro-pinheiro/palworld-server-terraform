@@ -16,5 +16,5 @@ module "palworld" {
 
   use_custom_palworldsettings = true
   custom_palworldsettings_s3  = true
-  palworldsettings_ini_path        = "./assets/config/PalWorldSettings.ini"
+  palworldsettings_ini_path   = "./assets/config/PalWorldSettings.ini"
 }
