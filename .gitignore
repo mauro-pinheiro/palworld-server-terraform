@@ -1,0 +1,14 @@
+.env
+palworld
+palworld.pub
+
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform.log
+.terraform.lock.hcl
+awscliv2.zip
+61862B4A464ECD23A94B96BE1374EF3A
+palworld-ssh
+palworld-ssh.pub
