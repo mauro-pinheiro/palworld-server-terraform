@@ -8,10 +8,10 @@ module "palworld" {
   start_from_backup               = true
   force_destroy                   = false
   backup_files_storage_type       = "local"
-  backup_files_local_path         = "./assets/61862B4A464ECD23A94B96BE1374EF3A"
+  backup_files_local_path         = "./assets/original_playthrough/61862B4A464ECD23A94B96BE1374EF3A"
   dedicated_server_name_hash      = "61862B4A464ECD23A94B96BE1374EF3A"
 
   use_custom_palworldsettings = true
   custom_palworldsettings_s3  = true
-  palworldsettings_ini_path   = "./assets/config/PalWorldSettings.ini"
+  palworldsettings_ini_path   = "./assets/original_playthrough/PalWorldSettings.ini"
 }
